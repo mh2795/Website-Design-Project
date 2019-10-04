@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,82 +10,117 @@
 </head>
 <body>
     <!--
-        Do I need a div here?
+        Do I need a div here? 500x270
         
         Also, do I make the nav its own class for flex styling or all encompassing in the header/div?
     -->
     <div>
         <header>
             <nav>
-                <a href="#">About</a>
-                <a href="#">Explore</a>
-                <a href="#"><img src="images/location.png" alt="Home"></a>
-                <a href="#">Journal</a>
-                <a href="#">Search</a>
+                <a class="navbar" href="#">About</a>
+                <a class="navbar" href="#">Explore</a>
+                <a class="navbar" href="#"><img id="home" src="images/location.png" alt="Home" height="60px" width="60px"></a>
+                <a class="navbar" href="#">Journal</a>
+                <a class="navbar" href="#">Search</a>
             </nav>
-            <h1>
-                The Great Outdoors
-            </h1>
-            <h2>
-                Wander often. Wander always.
-            </h2>
-            <div class="embededvideo">
-                <video width="320" height="240" controls>
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-                </video>
+            <div id="title">
+                <h1>
+                    The Great Outdoors
+                </h1>
+                <p>
+                    Wander often. Wander always.
+                </p>
+            </div>
+            
+            <div id="playback">
+               <img src="images/playbutton.png" alt="Playback" width= 70px;>
             </div>
             <h3>
                 Explore the World
             </h3>
-            <p>
-                We seek to provide the most authentic content from athletes, adventurers, explorers and travellers aroind the world. Our long-term mission is to educate, inspire and enable all peoples to experience & protect wilderness.
-            </p>
+            <div id="first-paragraph">
+                <p>
+                We seek to provide the most authentic content from athletes, adventurers, explorers and travellers around the world. Our long-term mission is to educate, inspire and enable all peoples to experience & protect wilderness.
+                </p>
+            </div>
+            
         </header>
     </div>
     <main>
         <div class="locations">
-            <section>
-                <h4>Naerofjorden</h4>
-                <h5>Norway</h5>
+            <section class="first-section" id="norway">
+                <div class="locations-text">
+                    <h4>Nærøyfjorden</h4>
+                    <h5>Norway</h5>
+                </div>
             </section>
-            <section>
-                <h4>Antelope Canyon</h4>
-                <h5>United States</h5>
-            <s/ection>
-            <section>
-                <h4>Grossglockner</h4>
-                <h5>Austria</h5>   
+            <section class="first-section" id="us">
+                <div class="locations-text">
+                    <h4>Antelope Canyon</h4>
+                    <h5>United States</h5>
+                </div>
+            </section>
+            <section class="first-section" id="austria">
+                <div class="locations-text">
+                    <h4>Grossglockner</h4>
+                    <h5>Austria</h5>
+                </div>  
             </section>
         </div>
 
-        <a href="#">See more ></a>
+        <div id="see-more">
+            <a class="more" href="#">See more <span class="arrow">></span></a>
+        </div>
 
         <h3>
             The Journal
         </h3>
-        <p>
+        <div id="second-paragraph">
+            <p>
             Our favorite stories about public lands and opportunities for you to get involved in protecting your outdoor experiences. 
-        </p>
+            </p>
+        </div>
+        
 
         <div class="stories">
-
+            <section class="second-section">
+                <div id="yosemite"></div>
+                <div class="stories-text">
+                    <p class="date">May 30, 2017</p>
+                    <h4>An Unforgettable</h4>
+                    <p class="blog">If you only have one day to visit Yosemite National Park and you want to make the most out of it.</p>
+                </div>
+            </section>
+            <section class="second-section">
+                <div id="golden-gate"></div>
+                <div class="stories-text">
+                    <p class="date">May 28, 2017</p>
+                    <h4>Symphonies in Steel</h4>
+                    <p class="blog">Crossing the Golden Gate Bridge from San Francisco, you arrive in Marin even before landing on solid ground.</p>
+                </div>
+            </section>
         </div>
 
-        <a href="#">All Posts ></a> <!--May need to go in the div below for gradient styling!-->
+        <div class="all-posts">
+            <div id="all-posts-link">
+               <a class="more" href="#">All Posts <span class="arrow">></span></a>      
+            </div>
+        </div>
+
     </main>
 
-    <div class="last"></div>
 
     <footer>
         <p>
-            copyright 2017 THE GREAT OUTDOORS. All rights reserved. |
+            © 2017 THE GREAT OUTDOORS. All rights reserved.
         </p>
-        <a href="#">About</a>
-        <a href="#">Explore</a>
-        <a href="#">Journal</a>
-        <a href="#">Search</a>
+        <p id="footdivider">
+            |
+        </p>
+        <a class="footlink" href="#">About</a>
+        <a class="footlink" href="#">Explore</a>
+        <a class="footlink" href="#">Journal</a>
+        <a class="footlink" href="#">Search</a>
     </footer>
 </body>
 </html>
