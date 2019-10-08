@@ -5,20 +5,17 @@
 
 The goal of this project was to curate an elementary mockup of a website build in an effort to experiment with responsiveness while viewing the site from variously sized devices ( ex; iPhone, iPad, Desktop). In addition, the process of replicating the website template from a pdf format was helping in becoming more familiar with utilizing HTML & CSS with no external support or reference.
 
-##
-=====
+## Mock-Up Visuals
 
-**Whoa**
+This is the website design I drew inspiration from: 
 
-__Damn__
+![Mockupt](https://github.com/mh2795/Website-Design-Project/blob/master/mockup/TGO.jpg "Website Mockup")
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+This is my attempt at recreating the template above:
+(Please note that this is a work-in-progress)
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+![Mockupt](https://github.com/mh2795/Website-Design-Project/blob/master/images/The%20Great%20Outdoors.pdf "Website Mockup")
 
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
