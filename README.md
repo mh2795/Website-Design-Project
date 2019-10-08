@@ -14,7 +14,7 @@ This is the website design I drew inspiration from:
 This is my attempt at recreating the template above:
 (Please note that this is a work-in-progress)
 
-![Mockupt](https://github.com/mh2795/Website-Design-Project/blob/master/images/The%20Great%20Outdoors.pdf "Website Mockup")
+![Mockup](https://github.com/mh2795/Website-Design-Project/blob/master/images/The%20Great%20Outdoors.png "Website Mockup")
 
 
 1. First ordered list item
