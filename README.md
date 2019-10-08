@@ -1,26 +1,11 @@
 # Website-Design-Project
-## Mustafa Hassan
+#### Mustafa Hassan
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+## Description
 
-Alternatively, for H1 and H2, an underline-ish style:
+The goal of this project was to curate an elementary mockup of a website build in an effort to experiment with responsiveness while viewing the site from variously sized devices ( ex; iPhone, iPad, Desktop). In addition, the process of replicating the website template from a pdf format was helping in becoming more familiar with utilizing HTML & CSS with no external support or reference.
 
-Alt-H1
-======
-
-Alt-H2
-------
-
-
-_Hey_
----
-
-*Hello*
+##
 =====
 
 **Whoa**
